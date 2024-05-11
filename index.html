@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/7900f5b00a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h1>
+                PASSWORD GENERATOR
+            </h1>
+        </div>
+        <div>
+            <h3 id="password-text">
+                hafbjks
+            </h3>
+        </div>
+        <div>
+            <input min="2" max="24" id="password-range" type="range">
+           
+        </div>
+        <div>
+            <h4 id="range-value">12</h4>
+
+        </div>
+        <div>
+            <div>
+                <input id="upper-case" type="checkbox">
+                <label for="upper-case"> Upper Case</label>
+            </div>
+            <div>
+                <input id="lower-case" type="checkbox">
+                <label for="lower-case">Lower Case</label>
+            </div>
+            <div>
+                <input id="num" role="switch"  type="checkbox">
+                <label for="num">Numbers</label>
+            </div>
+            <div>
+                <input id="spacial-characters" type="checkbox">
+                <label for="spacial-characters">Spacial characters</label>
+            </div>
+            
+        </div>
+        <div>
+            <button id="password-generator">Generate</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
